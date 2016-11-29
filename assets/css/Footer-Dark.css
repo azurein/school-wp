@@ -94,6 +94,7 @@
 
 @media (max-width:768px) {
   .school-header-info {
+	  display: none;
     text-align:center;
     margin-top:20px;
   }
