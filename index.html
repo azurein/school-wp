@@ -20,29 +20,6 @@
     <link rel="stylesheet" href='assets/css/fullcalendar.print.css' rel='stylesheet' media='print' />
     <link rel="stylesheet" href="assets/css/styles.css">
 	<style>
-		@media (max-width: 768px) {
-			#topMenu {
-				position: fixed;
-				background-color: #fff;
-				z-index: 10;
-				width: 100%;
-			}
-			.separator {padding-top: 160px;}
-		}
-		.swiper-slide .container {padding: 7% 10%;}
-		.swiper-slide .container p {max-width: 400px;}
-		
-		#section_3 {
-			padding-bottom: 5px;
-			background-color: #B2DFDB;
-		}
-		#news {margin: 30px auto;}
-		#news .row {margin-top: 10px;margin-bottom: 10px;}
-		#news img{width: 100%;}
-		#news .col-md-2, .col-md-6 {padding: 10px;}
-		#news h4 {margin-bottom: 10px;}
-		
-		#calendar {margin: 25px auto 50px auto;}
 	</style>
 </head>
 
@@ -51,14 +28,14 @@
 		<div>
 			<div class="container school-header">
 				<div class="row">
-					<div class="col-sm-9"><img class="img-responsive" src="assets/img/school-logo-1.png"></div>
-					<div class="col-sm-3 school-header-info">
+					<div class="col-sm-9"><a href="index.html"><img class="img-responsive" src="assets/img/school-logo-1.png"></a></div>
+					<!-- <div class="col-sm-3 school-header-info">
 						<div class="row">
 							<div><a href="#"><i class="fa fa-phone school-header-icon"></i><label>(021) 541 1230</label></a></div>
 							<div><a href="#"><i class="fa fa-envelope school-header-icon"></i><label>Send message</label></a></div>
 							<div><a href="#"><i class="fa fa-map-marker school-header-icon"></i><label>Find location</label></a></div>
 						</div>
-					</div>
+					</div> -->
 				</div>
 			</div>
 		</div>
@@ -70,9 +47,10 @@
 					</div>
 					<div class="collapse navbar-collapse" id="navcol-1">
 						<ul class="nav navbar-nav">
-							<li role="presentation"><a href="#">Profile </a></li>
-							<li role="presentation"><a href="#">Facilities </a></li>
-							<li role="presentation"><a href="#">Achievement </a></li>
+							<li role="presentation"><a href="profile.html">Profile </a></li>
+							<li role="presentation"><a href="facilities.html">Facilities </a></li>
+							<li role="presentation"><a href="achievement.html">Achievement </a></li>
+                            <li role="presentation"><a href="contact.html">Contact </a></li>
 						</ul>
 						<form class="navbar-form navbar-right" target="_self">
 							<div class="form-group">
@@ -188,6 +166,7 @@
     <script src="assets/js/Simple-Slider.js"></script>
     <script src='assets/js/moment.min.js'></script>
     <script src='assets/js/fullcalendar.min.js'></script>
+    <script src='assets/js/script.js'></script>
     <script type="text/javascript">
 
         $(document).ready(function() {
